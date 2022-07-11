@@ -1113,6 +1113,12 @@ input, select, textarea {
    -webkit-transform: translateX(-50%) translateY(-50%);
    transform: translateX(-50%) translateY(-50%);
 }
+/*@media (min-width: 62em) {
+   #bg {
+      display:block;
+   }
+}*/
+
 /* Wrapper */
 
 	#wrapper {
