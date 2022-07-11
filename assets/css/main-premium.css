@@ -1101,16 +1101,16 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-   height: 100vh;
-        width: 100%;
+   width: 100%    !important;
+  height: auto   !important;
         object-fit: fill;
         position: absolute;
 	}
 
 @media (min-width:1025px) {
 	#bg {
-height: 100vh;
-        width: 100%;
+width: 100%    !important;
+  height: auto   !important;
         object-fit: fill;
         position: absolute;
 	}
@@ -1118,8 +1118,8 @@ height: 100vh;
 
 @media (min-width:1281px) {
 	#bg {
-		height: 100vh;
-        width: 100%;
+		width: 100%    !important;
+  height: auto   !important;
         object-fit: fill;
         position: absolute;
 	}
