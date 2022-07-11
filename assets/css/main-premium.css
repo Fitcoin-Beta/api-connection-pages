@@ -1101,9 +1101,16 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-   display:block;
-   position: fixed;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
    z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
 }
 
 /* Media Query for Mobile Devices */
