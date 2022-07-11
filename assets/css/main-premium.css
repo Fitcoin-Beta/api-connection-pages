@@ -1115,13 +1115,13 @@ input, select, textarea {
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 29em) {
+@media (max-width: 30em) {
    #bg {
    display:block;
    position: fixed;
    top: 5%;
    left: 98%;
-   min-width: 100%;
+   min-width: 80%;
    min-height: 100%;
    width: auto;
    height: auto;
