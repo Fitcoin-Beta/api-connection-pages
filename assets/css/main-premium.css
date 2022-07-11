@@ -1103,13 +1103,7 @@ input, select, textarea {
 	#bg {
    display:block;
    position: fixed;
-   top: 5%;
-   right: -100%;
-   min-width: 100%;
-   min-height: 100%;
    z-index: -100;
-   -webkit-transform: translateX(-50%) translateY(-50%);
-   transform: translateX(-50%) translateY(-50%);
 }
 
 /* Media Query for Mobile Devices */
