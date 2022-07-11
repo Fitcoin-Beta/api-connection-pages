@@ -1120,7 +1120,7 @@ input, select, textarea {
    display:block;
    position: fixed;
    top: 50%;
-   left: 95%;
+   left: 150%;
    min-width: 100%;
    min-height: 100%;
    width: auto;
