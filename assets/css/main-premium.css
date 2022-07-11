@@ -1119,7 +1119,7 @@ input, select, textarea {
    #bg {
    display:block;
    position: fixed;
-   top: 50%;
+   top: 70%;
    left: 80%;
    min-width: 100%;
    min-height: 100%;
