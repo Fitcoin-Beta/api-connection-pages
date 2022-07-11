@@ -1101,23 +1101,19 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-        object-fit: fill;
-        position: fixed;
-	}
-
-@media (min-width:1025px) {
-	#bg {
-        object-fit: fill;
-        position: fixed;
-	}
+   display:block;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
 }
 
-@media (min-width:1281px) {
-	#bg {
-        object-fit: fill;
-        position: fixed;
-	}
-}
 /* Media Query for Mobile Devices */
 @media (min-width:320px) {
    #bg {
