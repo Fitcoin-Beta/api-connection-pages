@@ -1131,7 +1131,7 @@ input, select, textarea {
    }
 }
 
-@media (max-width: 30em) and (orientation: landscape) {
+@media (min-device-width: 375px) and (max-device-width: 812px)  and (orientation: landscape) {
   	   #bg {
    display:block;
    position: fixed;
