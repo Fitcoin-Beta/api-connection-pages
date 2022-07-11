@@ -1131,10 +1131,10 @@ input, select, textarea {
    }
 }
 
-@media only screen (min-device-width: 23em) and (max-device-width: 53em) {
+@media only screen (min-device-width: 22em) and (max-device-width: 54em) {
   	   #bg {
    display:block;
-   position: absolute;
+   position: fixed;
    top: 200%;
    left: 200%;
    min-width: 100%;
