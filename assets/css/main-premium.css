@@ -1104,7 +1104,7 @@ input, select, textarea {
    width: 100%    !important;
   height: 100%   !important;
         object-fit: fill;
-        position: absolute;
+        position: fixed;
 	}
 
 @media (min-width:1025px) {
@@ -1112,7 +1112,7 @@ input, select, textarea {
 width: 100%    !important;
   height: 100%   !important;
         object-fit: fill;
-        position: absolute;
+        position: fixed;
 	}
 }
 
@@ -1121,7 +1121,7 @@ width: 100%    !important;
 		width: 100%    !important;
   height: 100%   !important;
         object-fit: fill;
-        position: absolute;
+        position: fixed;
 	}
 }
 /* Media Query for Mobile Devices */
