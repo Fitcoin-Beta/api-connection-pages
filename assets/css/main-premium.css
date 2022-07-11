@@ -1103,16 +1103,12 @@ input, select, textarea {
 	#bg {
    width: 100%    !important;
   height: 100%   !important;
-        object-fit: fill;
-        position: fixed;
 	}
 
 @media (min-width:1025px) {
 	#bg {
 width: 100%    !important;
   height: 100%   !important;
-        object-fit: fill;
-        position: fixed;
 	}
 }
 
@@ -1120,8 +1116,6 @@ width: 100%    !important;
 	#bg {
 		width: 100%    !important;
   height: 100%   !important;
-        object-fit: fill;
-        position: fixed;
 	}
 }
 /* Media Query for Mobile Devices */
