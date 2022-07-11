@@ -1130,13 +1130,30 @@ input, select, textarea {
    transform: translateX(-50%) translateY(-50%);
    }
 }
+
+@media (min-device-width: 375px) and (max-device-width: 850px) {
+  	   #bg {
+   display:block;
+   position: absolute;
+   top: 100%;
+   left: 100%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   }
+  }
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 30em) and (max-width: 50em) {
    #bg {
    display:block;
    position: fixed;
    top: 50%;
-   left: %;
+   left: 50%;
    min-width: 100%;
    min-height: 100%;
    width: auto;
