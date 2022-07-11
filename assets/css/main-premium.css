@@ -1101,7 +1101,7 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-   display:block;
+   display:none;
    position: fixed;
    top: 50%;
    left: 50%;
@@ -1113,11 +1113,57 @@ input, select, textarea {
    -webkit-transform: translateX(-50%) translateY(-50%);
    transform: translateX(-50%) translateY(-50%);
 }
-/*@media (min-width: 62em) {
+
+/* Media Query for Mobile Devices */
+@media (max-width: 30em) {
    #bg {
-      display:block;
+   display:none;
+   position: fixed;
+   top: 50%;
+   left: 70%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
    }
-}*/
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 30em) and (max-width: 50em) {
+   #bg {
+   display:none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 48em) and (max-width: 64em) {
+   #bg {
+   display:none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   }
+}
 
 /* Wrapper */
 
