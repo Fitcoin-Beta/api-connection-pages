@@ -1131,7 +1131,7 @@ input, select, textarea {
    }
 }
 
-@media (min-device-width: 375px) and (max-device-width: 850px) {
+@media (min-device-width: 23em) and (max-device-width: 53em) {
   	   #bg {
    display:block;
    position: absolute;
