@@ -1118,7 +1118,7 @@ input, select, textarea {
 @media (max-width: 30em) {
    #bg {
    display:block;
-   position: absolute;
+   position: static;
    top: 50%;
    left: 50%;
    min-width: 100%;
