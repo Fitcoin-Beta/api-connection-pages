@@ -1134,7 +1134,7 @@ input, select, textarea {
 @media (min-device-width: 375px) and (max-device-width: 812px) {
   	   #bg {
    display:block;
-   position: fixed;
+   position: absolute;
    top: 100%;
    left: 100%;
    min-width: 100%;
