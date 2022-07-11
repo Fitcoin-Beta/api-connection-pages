@@ -1101,7 +1101,7 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-   position: absolute;
+		fill: cover;
    top: 50%;
    left: 50%;
    min-width: 100%;
@@ -1115,7 +1115,7 @@ input, select, textarea {
 
 @media (min-width:1025px) {
 	#bg{
-		   position: absolute;
+	fill: cover;
    top: 50%;
    left: 50%;
    min-width: 100%;
@@ -1130,7 +1130,7 @@ input, select, textarea {
 
 @media (min-width:1281px) {
 	#bg{
-		   position: absolute;
+		fill: cover;
    top: 50%;
    left: 50%;
    min-width: 100%;
