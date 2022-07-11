@@ -1131,6 +1131,24 @@ input, select, textarea {
    }
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) {
+  	   #bg {
+   display:block;
+   position: fixed;
+   top: 10%;
+   left: 200%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   }
+  }
+
 /* Media Query for portrait tablets, portrait iPad */
 @media (min-width:641px) {
    #bg {
