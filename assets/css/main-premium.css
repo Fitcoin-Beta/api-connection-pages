@@ -1101,21 +1101,21 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-   width: 100%    !important;
-  height: 100%   !important;
+        object-fit: fill;
+        position: fixed;
 	}
 
 @media (min-width:1025px) {
 	#bg {
-width: 100%    !important;
-  height: 100%   !important;
+        object-fit: fill;
+        position: fixed;
 	}
 }
 
 @media (min-width:1281px) {
 	#bg {
-		width: 100%    !important;
-  height: 100%   !important;
+        object-fit: fill;
+        position: fixed;
 	}
 }
 /* Media Query for Mobile Devices */
