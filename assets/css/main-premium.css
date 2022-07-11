@@ -1105,7 +1105,7 @@ input, select, textarea {
    position: fixed;
    top: 50%;
    left: 50%;
-   min-width: 100%;
+   min-width: 50%;
    min-height: 100%;
    width: auto;
    height: auto;
@@ -1119,13 +1119,13 @@ input, select, textarea {
    #bg {
    display:block;
    position: fixed;
-   top: 5%;
-   left: 98%;
-   min-width: 80%;
+   top: 50%;
+   left: 80%;
+   min-width: 100%;
    min-height: 100%;
    width: auto;
    height: auto;
-   z-index: 100;
+   z-index: -100;
    -webkit-transform: translateX(-50%) translateY(-50%);
    transform: translateX(-50%) translateY(-50%);
    }
@@ -1154,7 +1154,7 @@ input, select, textarea {
    display:block;
    position: fixed;
    top: 50%;
-   left: 60%;
+   left: 50%;
    min-width: 100%;
    min-height: 100%;
    width: auto;
