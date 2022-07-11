@@ -1136,7 +1136,7 @@ input, select, textarea {
    display:block;
    position: fixed;
    top: 90%;
-   left: 200%;
+   left: 5%;
    min-width: 100%;
    min-height: 100%;
    width: auto;
