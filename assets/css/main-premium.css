@@ -1119,15 +1119,15 @@ input, select, textarea {
    #bg {
    display:block;
    position: fixed;
-   top: 20%;
+   top: 5%;
    left: 95%;
    min-width: 100%;
    min-height: 100%;
-   width: 29em;
+   width: auto;
    height: auto;
-   z-index: 50;
-   -webkit-transform: translateX(-50%) translateY(-50%);
-   transform: translateX(-50%) translateY(-50%);
+   z-index: 100;
+   -webkit-transform: translateX(50%) translateY(-0%);
+   transform: translateX(50%) translateY(50%);
    }
 }
 
