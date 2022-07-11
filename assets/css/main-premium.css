@@ -1102,7 +1102,7 @@ input, select, textarea {
 
 	#bg {
    width: 100%    !important;
-  height: auto   !important;
+  height: 100%   !important;
         object-fit: fill;
         position: absolute;
 	}
@@ -1110,7 +1110,7 @@ input, select, textarea {
 @media (min-width:1025px) {
 	#bg {
 width: 100%    !important;
-  height: auto   !important;
+  height: 100%   !important;
         object-fit: fill;
         position: absolute;
 	}
@@ -1119,7 +1119,7 @@ width: 100%    !important;
 @media (min-width:1281px) {
 	#bg {
 		width: 100%    !important;
-  height: auto   !important;
+  height: 100%   !important;
         object-fit: fill;
         position: absolute;
 	}
