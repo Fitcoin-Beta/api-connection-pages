@@ -1131,13 +1131,29 @@ input, select, textarea {
    }
 }
 
+@media (min-device-width: 20em) and (max-device-width: 30em) {
+  	   #bg {
+   display:block;
+   position: fixed;
+   top: 10%;
+   left: 200%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   }
+  }
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 30em) and (max-width: 50em) {
    #bg {
    display:block;
    position: fixed;
    top: 50%;
-   left: 80%;
+   left: %;
    min-width: 100%;
    min-height: 100%;
    width: auto;
