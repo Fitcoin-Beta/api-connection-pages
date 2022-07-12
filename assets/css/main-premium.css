@@ -404,7 +404,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #000000;
+		border: solid 1px #e02b20;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -428,7 +428,7 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			background: #e02b20;
+			background: rgba(255, 255, 255, 0.075);
 			border-color: #e02b20;
 			box-shadow: 0 0 0 1px #e02b20;
 		}
