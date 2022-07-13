@@ -101,6 +101,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			color: #e02b20;
 		}
 
 /* Type */

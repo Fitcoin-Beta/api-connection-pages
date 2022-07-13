@@ -101,6 +101,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			color: #e02b20;
 		}
 
 /* Type */
@@ -228,7 +229,6 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-
 			font-size: 1.75rem;
 			line-height: 1.4;
 		}
