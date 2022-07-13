@@ -166,6 +166,7 @@ input, select, textarea {
 
 	p {
 		color: #e02b20;
+		font-weight: 600;
 		margin: 0 0 2rem 0;
 	}
 
@@ -233,6 +234,7 @@ input, select, textarea {
 		}
 
 		h2 {
+			color: #e02b20;
 			font-size: 1.25em;
 			line-height: 1.5;
 		}
@@ -1117,7 +1119,7 @@ input, select, textarea {
    display:block;
    position: fixed;
    top: 50%;
-   left: 40%;
+   left: 110%;
    min-width: 100%;
    min-height: 100%;
    width: auto;
