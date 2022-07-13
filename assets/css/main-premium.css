@@ -1045,6 +1045,7 @@ input, select, textarea {
 		.button:hover {
 			background-color: #000000;
 			color: #ffffff;
+			font-weight: 600;
 			box-shadow: inset 0 0 0 1px #000000;
 		}
 
@@ -1090,6 +1091,17 @@ input, select, textarea {
 			background-color: #ffffff;
 			color: #1b1f22 !important;
 			font-weight: 600;
+		}
+
+		input[type="submit"].primary,
+		input[type="reset"].primary,
+		input[type="button"].primary,
+		button.primary:hover,
+		.button.primary:hover {
+			background-color: #000000;
+			color: #ffffff;
+			font-weight: 600;
+			box-shadow: inset 0 0 0 1px #000000;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
