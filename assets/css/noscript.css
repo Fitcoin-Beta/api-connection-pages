@@ -2,7 +2,6 @@
 
 	body.is-preload #bg:before {
 		background-color: transparent;
-		color: #1b1f22;
 	}
 
 /* Header */
@@ -12,19 +11,16 @@
 		-webkit-filter: none;
 		-ms-filter: none;
 		filter: none;
-		color: #1b1f22;
 	}
 
 		body.is-preload #header > * {
 			opacity: 1;
-			color: #1b1f22;
 		}
 
 		body.is-preload #header .content .inner {
 			max-height: none;
 			padding: 3rem 2rem;
 			opacity: 1;
-			color: #1b1f22;
 		}
 
 /* Main */
@@ -32,5 +28,4 @@
 	#main article {
 		opacity: 1;
 		margin: 4rem 0 0 0;
-		color: #1b1f22;
 	}
