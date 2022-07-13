@@ -11,6 +11,7 @@
 		-webkit-filter: none;
 		-ms-filter: none;
 		filter: none;
+		color: #1b1f22;
 	}
 
 		body.is-preload #header > * {
