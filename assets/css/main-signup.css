@@ -307,7 +307,11 @@ input, select, textarea {
     form {
         margin: 0 0 2rem 0;
     }
-
+.space {
+    width: 15px;
+    height: auto;
+    display: inline-block;
+}
         form > :last-child {
             margin-bottom: 0;
         }
